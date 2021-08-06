@@ -1,0 +1,40 @@
+/* @font-face {
+    font-family: 'cairoregular';
+    src: url('/css/fonts/ae_AlMohanad.ttf') format('truetype');
+} */
+
+body {
+    /* font-family: 'cairoregular'; */
+    color: black;
+    font-weight: 800;
+    font-size: 1.1rem;
+    /* font-size: 0.9rem;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+    /* background-color: #175d39 !important; */
+    /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, #175d39, #a4cb3a) !important; */
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 100%) !important; */
+}
+
+.app-container {
+    background-color: #175d39 !important;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%);
+}
+
+.page-title {
+    /* color: white; */
+}
+
+.control-label {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.hide_edit {
+    display: none;
+}
